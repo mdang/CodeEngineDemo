@@ -65,7 +65,6 @@ func PrintMessage(w io.Writer, showAll bool) {
 	fmt.Fprintln(w, `(  __)(  ( \ / __)(  )(  ( \(  __)`)
 	fmt.Fprintln(w, `.) _) /    /( (_ \ )( /    / ) _)`)
 	fmt.Fprintln(w, `(____)\_)__) \___/(__)\_)__)(____)`)
-	fmt.Fprintln(w, `xxxxxxxxxxxx`)
 	fmt.Fprintln(w, "")
 
 	fmt.Fprintf(w, "Some Env Vars:\n")
