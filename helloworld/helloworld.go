@@ -57,7 +57,6 @@ func Debug(doit bool, format string, args ...interface{}) {
 // Just print an cool essage to the Writer that's passed in
 func PrintMessage(w io.Writer, showAll bool) {
 	fmt.Fprintf(w, "%s:\n", msg)
-	fmt.Fprintln(w, `IBM Cloud Cafe`)
 	fmt.Fprintln(w, `. ___  __  ____  ____`)
 	fmt.Fprintln(w, `./ __)/  \(    \(  __)`)
 	fmt.Fprintln(w, `( (__(  O )) D ( ) _)`)
@@ -66,6 +65,7 @@ func PrintMessage(w io.Writer, showAll bool) {
 	fmt.Fprintln(w, `(  __)(  ( \ / __)(  )(  ( \(  __)`)
 	fmt.Fprintln(w, `.) _) /    /( (_ \ )( /    / ) _)`)
 	fmt.Fprintln(w, `(____)\_)__) \___/(__)\_)__)(____)`)
+	fmt.Fprintln(w, `..........................`)
 	fmt.Fprintln(w, "")
 
 	fmt.Fprintf(w, "Some Env Vars:\n")
